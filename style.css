@@ -63,8 +63,13 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 50px;
 
 }
+.align {
+    display: flex;
+}
+
 .card-hero {
     background-color: #b8b8b8;
     color: #fff;
@@ -115,4 +120,10 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.card-course-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
