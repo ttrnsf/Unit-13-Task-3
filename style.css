@@ -1,0 +1,118 @@
+header {
+    background-color: #333;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all .2s ease;
+}
+
+header nav a:hover {
+    color: #ccc;
+}
+
+main {
+
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.hero {
+    background-color: #e8e8e8;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.card-hero {
+    background-color: #b8b8b8;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+.card-hero button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-hero button:hover {
+    background-color: #666;
+
+}
+
+.card-course button{
+    background-color: #b8b8b8;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.course {
+    background-color: #e8e8e8;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.course-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
