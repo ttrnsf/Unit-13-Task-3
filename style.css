@@ -127,3 +127,22 @@ li {
     justify-content: space-around;
     
 }
+
+.card-course-wrapper-2{ 
+    flex-direction: row;
+    display: flex;
+    padding-top: 10px;
+    gap: 130px;
+    justify-content: space-around;
+
+}
+
+.whychoose {
+    background-color: #D2E1F4;
+    color: #000000;
+    padding: 20px;
+    text-align: start;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-around;
+}
