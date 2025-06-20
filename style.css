@@ -265,3 +265,49 @@ li {
     margin: 15px 0px;
     cursor: pointer;
 }
+
+.course-explorer-wrapper {
+  /* max-width: 320px; */
+  /* margin: 40px auto; */
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 24px 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.course-explorer-wrapper ul {
+  list-style: none;
+  padding: 0 24px;
+  margin: 0;
+}
+
+.course-explorer-wrapper li {
+  margin-bottom: 12px;
+}
+
+.course-explorer-wrapper li:last-child {
+  margin-bottom: 0;
+}
+
+.course-explorer-wrapper p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.course-explorer-wrapper li h3 {
+  margin: 16px 0 8px 0;
+  font-size: 1.1rem;
+  color: #1976d2;
+  letter-spacing: 1px;
+}
+
+.course-explorer-wrapper p:hover {
+  background: #f0f4fa;
+  color: #1976d2;
+}
