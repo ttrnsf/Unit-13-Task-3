@@ -47,10 +47,14 @@ main p {
 }
 
 ul {
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.ul-enrolment {
     display: flex;
     flex-direction: row;
 }
-
 li {
     margin-right: 20px;
 }
@@ -163,4 +167,101 @@ li {
     justify-content: center;
     border-radius: 5px;
 
+}
+.course-explorer {
+    background-color: #e8e8e8;
+    color: #000000;
+    padding: 20px;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}   
+
+.courses {
+    background-color: #e8e8e8;
+    color: #000000;
+    padding: 20px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.course-form {
+    background-color: #e8e8e8;
+    color: #000000;
+    padding: 20px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Optional: set a width */
+  }
+  label, input, button {
+    margin-bottom: 12px;
+  }
+
+
+
+  .card-input {
+    background-color: #D2E1F4;
+    color: #000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 15px 0px;
+    border: none;
+
+
+
+
+}
+
+.pointer {
+    cursor: pointer;
+}
+.card-input:hover {
+    background-color: #a9cdff;
+
+}
+.card-input input:hover {
+    cursor: pointer;
+
+}
+.card-input button {
+    background-color: #D2E1F4;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-input button:hover {
+    background-color: #a9cdff;
+
+}
+.card-submit {
+    background-color: #D2E1F4;
+    color: #000;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 15px 0px;
+    cursor: pointer;
 }
